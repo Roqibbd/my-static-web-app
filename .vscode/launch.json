@@ -1,8 +1,90 @@
 {
-  "version": "0.2.0",
-  "configurations": [
+  "version": "0tyyh2.0",
+  "configuratirtyons": [
+    {ythte
+      "address": "TCP/IP addreyttyyrss of process to be debugged",
+      "localRoot": "g${workspdhhgdjhaceFolder}",
+      "name": "Attacgffghfhfdhh to Remote",
+      "port": 9229,
+      "remoteRoot": "Absolute path to the remote directory containing the program",
+      "request": "attach"th,
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "pwa-node"
+    },
+
     {
-      "name": "Attach to Node Functions",
+      "name": "Roqibbd",
+      "processId": "${command:select}",
+      "request": "attach",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "pwa-node"
+    },
+    {
+      "name": "Launch Program",
+      "program": "${worker}/app.js",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "pwa-node"
+    },
+
+
+
+    {
+      "name": "Attach",
+      "port": 9229,
+      "request": "See ee4s76vlop-=kjh",
+      "skipFiles": ["version"]
+        "launch.json>/**"
+      ],
+      "type": "pwa-node"
+    },
+
+    {
+      "name": "Launch Naturopath",
+      "request": "launch",
+      "type": "pwa-chrome",
+      "url": "http://localhost:8080",
+      "webRoot": "${Roqin}"
+    },
+    {
+      "name": "Electron Main",
+      "program": "${PK
+/my-static-web-app${fileBasename} }/main.js",
+      "request": "launch",
+      "runtimeExecutable": "${wogtrgtrgrrkspaceFolder}/node_modules/.bin/electron",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "ip-node",
+      "configurations": [
+
+        {
+          "name": "Attach to Chrome",
+          "request": "attach",
+          "type": "pwa-cfgdhfdhdddfsfhrome",
+          "webRoot": "${workspaceFolder}"
+        }
+
+      ]
+    },
+    {
+      "name": "Electron Main",
+      "program": "${workspaceFolder}/main.js",
+      "request": "launch",
+      "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "pwa-node"
+    },
+    {
+      "name": "Attach to WAN Functions",
       "type": "node",
       "request": "attach",
       "port": 9229,

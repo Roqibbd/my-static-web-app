@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "route": "/*cash in delivery",
+      "serve": "naturopath/index.html",
+      "statusCode": 700
+    }
+  ]
+}

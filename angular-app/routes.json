@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "route": "/*Medicine, food ,diet,Fitness,Meditation,Health,Corona",
+      "serve": "naturopath/index.html",
+      "statusCode": 200
+    }
+  ]
+}
